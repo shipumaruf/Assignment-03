@@ -11,6 +11,11 @@
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/be5b7ea6df.js" crossorigin="anonymous"></script>
 
+    <!-- manrop font family link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
     <!-- tailwind config link  -->
     <script>
         tailwind.config = {
@@ -23,9 +28,65 @@
           }
         }
       </script>
+
+      <style>
+        .font-family{
+            font-family:"Manrope", sans-serif; ;
+        }
+        
+      </style>
 </head>
-<body>
+<body class="font-family">
     <header>
+        <section class="container mx-auto">
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start gap-3">
+                      
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full"></i>
+                        <a class="text-3xl">Rinterio</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-[#737373]">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn bg-[#ABEF5F] rounded-3xl">Book Consult<i class="fa-solid fa-arrow-right text-white -rotate-45 bg-black p-2 rounded-full"></i></a>
+                      
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </nav>
+        </section>
 
     </header>
 
@@ -34,7 +95,7 @@
     </main>
 
     <footer>
-        
+
     </footer>
     
 </body>
