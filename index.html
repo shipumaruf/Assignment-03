@@ -33,6 +33,9 @@
         .font-family{
             font-family:"Manrope", sans-serif; ;
         }
+        .bg-secondary{
+          background-image: url(images/bg.jpg);
+        }
         
       </style>
 </head>
@@ -102,7 +105,7 @@
     </header>
 
     <main>
-      <!-- We design thoughtful, liveable spaces section start -->
+      <!-- We design thoughtful, liveable spaces section start -->   <!-- Our Works Process  -->
       <section class="relative  my-24 bg-slate-100">
         <div class="container mx-auto">
           <div class="absolute top-5 border border-dashed p-3"><img src="images/Vector.png" alt=""></div>
@@ -139,7 +142,11 @@
         </div>
 
         <!-- Our Works Process  -->
-         <div class="text-center space-y-5">
+         
+      
+
+      
+        <div class="text-center space-y-5">
           <small class="bg-white p-1 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>How we works</small>
           <h3 class="text-4xl font-bold">Our Works Process</h3>
           <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, <br>
@@ -187,13 +194,117 @@
       <!-- Our Latest Portfolio  -->
        <section class="container mx-auto bg-white my-20">
         <!-- text contain  -->
-         <div class="text-center">
-          <small class="bg-slate-100 p-1 rounded-3xl">Explore our Latest works</small>
-          <h3>Our Latest Portfolio</h3>
-          <p>The barn house captivates with its blend of rustic charm and modern sophistication, 
+         <div class="text-center space-y-5">
+          <small class="bg-slate-100 p-1 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>Explore our Latest works</small>
+          <h3 class="text-4xl font-bold">Our Latest Portfolio</h3>
+          <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, 
             featuring weathered wood, sleek metal accents.</p>
          </div>
+
+         <!-- card contain  -->
+
+        <div class="h-[478px]">
+          <div class="lg:flex gap-5">
+            <!-- card  1 -->
+            <div class="flex flex-col lg:flex-row gap-3 mt-5 border p-3 rounded-2xl lg:w-2/3">
+              <!-- img contain  -->
+               <div class="w-full">
+                <img class="lg:w-11/12 w-full" src="images/img1.png" alt="">
+              </div>
+              <!-- text contain  -->
+               <div class="space-y-10">
+                <h4 class="text-2xl text-[#494949]">Commercial</h4>
+                <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
+                   The barn house captivates with its blend of rustic charm and modern .</p>
+                   <h3 class="text-[#212121] text-2xl">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-1 ml-2 rounded-full"></i></h3>
+               </div>
+               
+            </div>
+  
+            <!-- card 2 -->
+            <div class="mt-5 border p-3 rounded-2xl lg:w-1/3 flex justify-center">
+              <img class="w-full" src="images/img2.png" alt="">
+            </div>
+            
+           </div>
+  
+           <!-- card 2nd layer  -->
+            <div class="lg:flex gap-5 mt-1 space-y-5">
+  
+              <!-- card 3  -->
+              <div class="border p-3 rounded-2xl mt-5 lg:w-1/4">
+                <div class="flex justify-center"><img class="w-full" src="images/img3.png" alt=""></div>
+               </div>
+      
+               <!-- card 4  -->
+      
+               <div class="flex flex-col lg:flex-row border mt-5 p-3 rounded-2xl gap-3 lg:w-2/4">
+                <!-- img contain  -->
+                <div class="w-full">
+                  <img class="w-full h-full" src="images/img4.png" alt="">
+      
+                </div>
+                <!-- text contain  -->
+                <div class="space-y-10">
+                  <h4 class="text-2xl text-[#494949]">Commercial</h4>
+                  <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
+                     The barn house captivates with its blend of rustic charm and modern .</p>
+                     <h3 class="text-[#212121] text-2xl">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-1 ml-2 rounded-full"></i></h3>
+                 </div>
+                
+               </div>
+      
+               <!-- card 5  -->
+               <div class="border flex justify-center p-3 rounded-2xl lg:w-1/4">
+                <img class="w-full" src="images/img5.png" alt="">
+              </div>
+            </div>
+        </div>
+
+         
+
+         
        </section>
+
+       <!-- input filed section  -->
+        <section class=" bg-secondary my-20">
+          <!-- text containt  -->
+           <div class="container mx-auto">
+          <div class="text-center space-y-3">
+            <small class="bg-[#ABEF5F33] p1 rounded-3xl">Let’s Connect</small>
+            <h2 class="text-4xl font-bold text-[#212121]">Let’s Discuss Next Project</h2>
+            <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, <br> 
+              featuring weathered wood, sleek metal accents.</p>
+          </div>
+
+          <!-- input containt  -->
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:w-3/4 lg:ml-40 mt-5">
+            <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+              <input type="text" class="grow" placeholder="First Name*" />
+              
+            </label>
+            <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+              
+              <input type="text" class="grow" placeholder="Last Name*" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+              
+              <input type="number" class="grow" placeholder="Phone Number*" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+              
+              <input type="email" class="grow" placeholder="Email Number*" />
+             
+            </label>
+            
+          </div>
+          <textarea class="textarea textarea-bordered lg:w-3/4 lg:ml-40 mt-2 h-60" placeholder="Write your message here"></textarea>
+          <a class="btn bg-[#ABEF5F] rounded-3xl w-3/4 ml-40 mt-8 mb-24">Send Mail<i class="fa-solid fa-arrow-right text-white -rotate-45 bg-black p-2 rounded-full"></i></a>
+          </div>
+        </section>
+
+
 
     </main>
 
